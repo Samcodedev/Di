@@ -17,9 +17,10 @@
     }
     .head2 .text-img .img-div{
         width: 100%;
+        align-items: flex-end;
     }
     .head2 .text-img .img-div img{
-        width: 90%;
+        width: 100%;
     }
 }
 
