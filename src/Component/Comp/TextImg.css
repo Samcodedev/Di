@@ -3,9 +3,11 @@
     height: 90vh;
     justify-content: space-between;
     align-items: center;
+    /* background-color: brown; */
 }
 .text-img .text-div{
     width: 60%;
+    /* background-color: blue; */
 }
 .text-img .text-div h2{
     font-size: 3rem;
@@ -25,17 +27,17 @@
 
 @media screen and (max-width: 800px) {
     .text-img{
-        height: 100vh;
-    }
-    .text-img{
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
+        height: 100vh;
     }
     .text-img .text-div{
         width: 100%;
     }
     .text-img .img-div{
         width: 100%;
+        align-items: flex-end;
+        /* background-color: aqua; */
     }
     .text-img .img-div img{
         width: 90%;
