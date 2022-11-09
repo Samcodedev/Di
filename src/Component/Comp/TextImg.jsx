@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Comp/Text_img.css'
+import './TextImg.css'
 import { 
     motion
 } from 'framer-motion'

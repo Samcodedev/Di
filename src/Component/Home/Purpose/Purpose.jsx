@@ -1,5 +1,5 @@
 import React from 'react';
-import Pur_card from '../../Comp/Pur_card';
+import PurCard from '../../Comp/PurCard';
 import './Purpose.css'
 import { GiBookCover } from 'react-icons/gi'
 import { FaCertificate } from 'react-icons/fa'
@@ -29,7 +29,7 @@ const Purpose = () => {
 
     const cards = data.map((item) =>{
         return(
-            <Pur_card 
+            <PurCard 
                 icon={item.icon}
                 content={item.content}
             />

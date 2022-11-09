@@ -2,7 +2,7 @@ import React from 'react';
 import { 
     motion
 } from 'framer-motion'
-import Text_img from '../../Comp/Text_img';
+import TextImg from '../../Comp/TextImg';
 import img from '../../../img/fdf29691d85e224cc6ddd59f8b6392fb_adobe_express.png'
 
 const Head3 = () => {
@@ -16,7 +16,7 @@ const Head3 = () => {
 
     const comp = data.map((item) =>{
         return(
-            <Text_img 
+            <TextImg 
                 question={item.question}
                 answer={item.answer}
                 link={item.link}

@@ -1,6 +1,5 @@
 import React from 'react';
-import './Pur_card.css'
-import { GiBookCover } from 'react-icons/gi'
+import './PurCard.css'
 
 const Pur_card = (props) => {
     return(
