@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+html, body{
+    margin: 0;
+    padding: 0 5%;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+span{
+    color: rgb(22, 70, 228);
+}
+h1, h2, h3, h4, h5{
+    color: rgb(2, 2, 31);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+p{
+    color: rgb(53, 53, 53);
+    word-spacing: 2px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 10px;
+}
+button{
+    padding: 4px 4px;
+    color: #ffffff;
+    border: 1.7px solid rgb(22, 70, 228);
+    border-style: dashed;
+    margin-top: 20px;
+    z-index: 3;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: but 1s ease-in-out infinite;
+    border-radius: 18px;
+}
+@keyframes but {
+    from{
+        padding: 4px 4px;
+    }
+    to{
+        padding: 0px 0px;
+    }
+}
+button span{
+    color: #ffffff;
+    background-color: rgb(22, 70, 228);
+    padding: 10px 30px;
+    position: relative;
+    animation: spa 1s ease-in-out infinite;
+    font-size: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes spa {
+    from{
+        padding: 10px 30px;
+    }
+    to{
+        padding: 14px 34px;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+@media screen and (max-width: 916px) {
+    html, body{
+        padding: 0 3%;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

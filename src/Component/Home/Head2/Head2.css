@@ -1,0 +1,31 @@
+.head2 .text-img{
+    flex-direction: row-reverse;
+}
+
+
+@media screen and (max-width: 800px) {
+    .head2 .text-img{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .head2 .text-img .text-div{
+        width: 100%;
+    }
+    .head2 .text-img .text-div h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .head2 .text-img .img-div{
+        width: 100%;
+    }
+    .head2 .text-img .img-div img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .head2 .text-img .text-div h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+}

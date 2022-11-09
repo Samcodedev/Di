@@ -1,0 +1,32 @@
+.purpose{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.purpose h2{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 3rem;
+    text-align: center;
+    width: 80%;
+}
+.purpose .cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 760px) {
+    .purpose .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .purpose h2{
+        width: 90%;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}

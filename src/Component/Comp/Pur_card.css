@@ -1,0 +1,64 @@
+.pur-card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.pur-card .img-div{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 10px solid rgba(22, 70, 228, 0.651);
+    border-style: double;
+    background-color: rgb(163, 185, 255);
+}
+
+
+.pur-card .img-div svg{
+    animation: icon 5s ease-in-out infinite normal;
+}
+@keyframes icon {
+    0%{
+        /* font-size: 130px; */
+        padding: 0px 0px;
+        transform: rotateZ(-10deg);
+    }
+    25%{
+        /* font-size: 150px; */
+        padding: 0px 0px;
+        transform: rotateZ(5deg);
+    }
+    50%{
+        /* font-size: 130px; */
+        padding: 0px 0px;
+        transform: rotateZ(-5deg);
+    }
+    75%{
+        /* font-size: 150px; */
+        padding: 0px 0px;
+        transform: rotateZ(10deg);
+    }
+    100%{
+        /* font-size: 130px; */
+        padding: 0px 0px;
+        transform: rotateZ(-10deg);
+    }
+}
+.pur-card .text-div{
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 760px) {
+    .pur-card{
+        width: 350px;
+        max-width: 70%;
+    }
+}
