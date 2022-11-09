@@ -4,7 +4,7 @@ import {
 } from 'framer-motion'
 import TextImg from '../../Comp/TextImg';
 import '../Head2/Head2.css'
-import img from '../../../img/743ff79123af237c73b4814872341436_adobe_express.png'
+import img from '../../../img/d3eb7a9d5502fb7d28cf721f9819f1ed.jpg'
 
 const Head4 = () => {
     const data = [

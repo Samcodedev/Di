@@ -4,7 +4,7 @@ import './Head2.css'
 import { 
     motion
 } from 'framer-motion'
-import img from '../../../img/403689fe701fedda5ceb6f82c7a88992_adobe_express.png'
+import img from '../../../img/a4d4d4dde84cb28581c5a8be82e1512a.jpg'
 
 const Head2 = () => {
     const data = [

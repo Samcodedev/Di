@@ -4,7 +4,7 @@ import {
     motion
 } from 'framer-motion'
 import TextImg from '../../Comp/TextImg';
-import img from '../../../img/743ff79123af237c73b4814872341436_adobe_express.png'
+import img from '../../../img/d2b3e0e958321a6e41bfcc3f9f99fcf0.jpg'
 
 const Head = () => {
 
