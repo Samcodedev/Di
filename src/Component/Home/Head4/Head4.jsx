@@ -10,7 +10,7 @@ const Head4 = () => {
     const data = [
         {
             question: "When is the registration closing?",
-            answer: "Registration for the January section closes Jan 3rd, 2023 while the section begins mid Jan. 2023.",
+            answer: "Registration for the January session closes Jan 3rd, 2023 while the section begins mid Jan. 2023.",
             link: ""
         }
     ]

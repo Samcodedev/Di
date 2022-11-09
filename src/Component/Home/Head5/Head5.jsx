@@ -9,7 +9,7 @@ const Head5 = () => {
 
     const data = [
         {
-            question: "How do i pay?",
+            question: "How do I pay?",
             answer: "In the registration form you will be filling there will be a payment instruction. Make payment, pick courses, sign up and send us the proof of payment.",
             link: ""
         }
