@@ -3,7 +3,7 @@ import {
     motion
 } from 'framer-motion'
 import TextImg from '../../Comp/TextImg';
-import img from '../../../img/4529c6b0415dfee91f0459b0fe8b808e.jpg'
+import img from '../../../img/Select-rafiki.png'
 
 const Head3 = () => {
     const data = [

@@ -2,19 +2,30 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(22, 70, 228);
-    position: absolute;
+    position: fixed;
     width: 100vw;
+    top: 0;
     left: 0;
     padding: 5px 0;
+    z-index: 3;
     /* background-image: -moz-linear-gradient( to right, transparent, rgba(22, 70, 228), transparent);
     background-image: linear-gradient( to right, transparent, rgb(22, 70, 228), transparent); */
 }
-.navbar ul{
+.navbar .dd{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.navbar .dd ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 50px;
-    width: 40%;
+    width: 80%;
     position: relative;
     padding-inline-start: 0;
     /* background-color: aqua; */
@@ -47,4 +58,51 @@
 }
 .navbar .img-div img{
     width: 70%;
+}
+.navbar svg{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1202px) {
+    .navbar .dd{
+        width: 28%;
+        height: fit-content;
+        justify-content: center;
+    }
+    .navbar .dd ul{
+        display: none;
+    }
+    .navbar .dd ul .close{
+        position: absolute;
+        top: 5px;
+        right: 25px;
+        z-index: 4;
+    }
+    /* .navbar .dd .close:hover #ull{
+        display: none;
+    } */
+    .navbar .dd ul li{
+        position: relative;
+    }
+    .navbar .dd svg{
+        display: block;
+    }
+    .navbar .dd:hover #ull{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        top: -20px;
+        right: -30px;
+        background-color: rgb(48, 92, 235);
+        width: 100%;
+        min-width: 100vw;
+        height: 100vh;
+        padding: 10px 10px;
+    }
+    .navbar .img-div img{
+        width: 50%;
+    }
 }
