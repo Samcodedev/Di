@@ -1,4 +1,5 @@
 import React from 'react';
+import Course from './Course/Course';
 import Head from './Head/Head';
 import Head2 from './Head2/Head2';
 import Head3 from './Head3/Head3';
@@ -16,6 +17,7 @@ const Home = () => {
             <Head3 />
             <Head4 />
             <Head5 />
+            <Course />
         </>
     )
 }
