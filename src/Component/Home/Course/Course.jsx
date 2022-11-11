@@ -2,6 +2,7 @@ import React from 'react';
 import './Course.css'
 import CouCard from '../../Comp/CouCard';
 import { BsJournalBookmark } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 import first from '../../../img/2e91fc101a4a1929e97ca8056feb3ddd.jpg'
 import second from '../../../img/51757724fdb031d98db3545f1552b380.jpg'
 import third from '../../../img/1c35e08837ad474ba95562d6c339ff33.jpg'
@@ -72,7 +73,7 @@ const Course = () => {
             <div className="cards">
                 {lists}
             </div>
-            <button><span>Click to Enroll <BsJournalBookmark /></span></button>
+            <Link to="/register"><button><span>Click to Enroll <BsJournalBookmark /></span></button></Link>
         </div>
     )
 }

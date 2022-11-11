@@ -14,6 +14,9 @@
     font-weight: 900;
     line-height: 3rem;
 }
+.text-img .text-div a{
+    text-decoration-line: none;
+}
 .text-img .img-div{
     width: 40%;
     display: flex;

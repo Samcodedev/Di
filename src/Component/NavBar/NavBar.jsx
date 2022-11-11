@@ -17,11 +17,10 @@ const NavBar = () => {
                     <Link to="/"><li>Home</li></Link>
                     <Link to=""><li>Contact Us</li></Link>
                     <Link to="/about"><li>About Us</li></Link>
-                    <Link to=""><span>Enrol Now</span></Link>
+                    <Link to="/register"><span>Enrol Now</span></Link>
                 </ul>
                 <BiMenu fontSize="40px" color='#ffffff' />
             </div>
-
         </div>
     )
 }
