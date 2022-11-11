@@ -31,7 +31,10 @@
     /* background-color: aqua; */
     margin-right: 10%;
 }
-.navbar ul li{
+.navbar ul a{
+    text-decoration-line: none;
+}
+.navbar ul a li{
     list-style: none;
     font-size: 15px;
     font-weight: 500;
@@ -83,7 +86,7 @@
     /* .navbar .dd .close:hover #ull{
         display: none;
     } */
-    .navbar .dd ul li{
+    .navbar .dd ul a li{
         position: relative;
     }
     .navbar .dd svg{
@@ -99,7 +102,7 @@
         background-color: rgb(48, 92, 235);
         width: 100%;
         min-width: 100vw;
-        height: 100vh;
+        height: 60vh;
         padding: 10px 10px;
     }
     .navbar .img-div img{
