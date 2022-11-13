@@ -4,6 +4,7 @@ import {
 } from 'framer-motion'
 import TextImg from '../../Comp/TextImg';
 import img from '../../../img/Mobile payments-rafiki.png'
+import '../Head/Head.css'
 
 const Head5 = () => {
 
@@ -28,13 +29,13 @@ const Head5 = () => {
     })
     return(
         <motion.div
-        initial={{x: 400, opacity: 0}}
+        initial={{x: -200, opacity: 0}}
         whileInView={{x: 0, opacity: 1}}
         viewport={{once:false, amount: 0.3}}
         transition={{
             type: "spring",
             damping: "20"
-        }}  className='head5'>
+        }}  className='head'>
             {comp}
         </motion.div>
     )

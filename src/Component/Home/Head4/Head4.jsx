@@ -28,7 +28,7 @@ const Head4 = () => {
     })
     return(
         <motion.div
-        initial={{x: 400, opacity: 0}}
+        initial={{x: 200, opacity: 0}}
         whileInView={{x: 0, opacity: 1}}
         viewport={{once:false, amount: 0.3}}
         transition={{

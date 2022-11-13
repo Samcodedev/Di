@@ -3,7 +3,6 @@ html, body{
     padding: 0 5%;
     background-color: #ffffff;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 span{
     color: rgb(22, 70, 228);

@@ -1,6 +1,9 @@
 .head2 .text-img{
     flex-direction: row-reverse;
 }
+/* .head2{
+    background-color: brown;
+} */
 
 
 @media screen and (max-width: 800px) {
