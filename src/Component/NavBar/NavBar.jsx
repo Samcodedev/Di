@@ -10,9 +10,14 @@ const NavBar = () => {
     function close(){
         let ull = document.getElementById("ull")
 
-        if( ull.style.display==="block" && ull.style.display==="flex"){
+        if( ull.style.display==="block" || ull.style.display==="flex"){
             ull.style.display="none"
-        }else{
+        }
+        else{
+            ull.style.display="flex"
+        }
+
+        if( window.innerWidth >= 1202 ){
             ull.style.display="flex"
         }
     }
@@ -24,10 +29,10 @@ const NavBar = () => {
             <div className="dd">
                 <ul id='ull'>
                 <MdClose fontSize="45px" color='#ffffff' onClick={close} id='close'/>
-                    <Link to="/"><li>Home</li></Link>
+                    <Link to="/" onClick={close} ><li>Home</li></Link>
                     {/* <Link to=""><li>Contact Us</li></Link> */}
-                    <Link to="/about"><li>About Us</li></Link>
-                    <Link to="/register"><span>Enrol Now</span></Link>
+                    <Link to="/about" onClick={close} ><li>About Us</li></Link>
+                    <Link to="/register" onClick={close} ><span>Enrol Now</span></Link>
                 </ul>
                 <BiMenu fontSize="40px" color='#ffffff' onClick={close} />
             </div>
