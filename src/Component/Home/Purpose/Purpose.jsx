@@ -14,19 +14,19 @@ const Purpose = () => {
     const data = [
         {
             icon: <GiBookCover fontSize="50px" color='rgb(22, 70, 228)' />,
-            content: "lorem lorem empum terh fetui sadiya eweh kinig oleren mulerwn"
+            content: "The  scholarship program is fully funded by the European government at Luxembourg."
         },
         {
             icon: <FaCertificate fontSize="50px" color='rgb(22, 70, 228)' />,
-            content: "lorem lorem empum terh fetui sadiya eweh kinig oleren mulerwn"
+            content: "The 14-week Program is easy to follow through, complete and worthwhile for its certification at the end."
         },
         {
             icon: <MdOutlineWork fontSize="50px" color='rgb(22, 70, 228)' />,
-            content: "lorem lorem empum terh fetui sadiya eweh kinig oleren mulerwn"
+            content: "Having the certificate of the European Business University on your CV would be a boost to your career!"
         },
         {
             icon: <RiGlobalLine fontSize="50px" color='rgb(22, 70, 228)' />,
-            content: "lorem lorem empum terh fetui sadiya eweh kinig oleren mulerwn"
+            content: " The European Business University is one of the most renowned business Universities in the world."
         }
     ]
 
