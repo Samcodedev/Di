@@ -77,7 +77,7 @@
     .navbar .dd ul{
         display: none;
     }
-    .navbar .dd ul .close{
+    .navbar .dd ul #close{
         position: absolute;
         top: 5px;
         right: 25px;
