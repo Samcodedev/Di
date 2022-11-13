@@ -3,7 +3,7 @@ import './NavBar.css'
 import { Link } from 'react-router-dom';
 import logo from '../../img/GoLearnFull Color.png'
 import { BiMenu } from 'react-icons/bi'
-import { MdClose } from 'react-icons/md'
+// import { MdClose } from 'react-icons/md'
 
 const NavBar = () => {
     return(
@@ -13,9 +13,9 @@ const NavBar = () => {
             </div>
             <div className="dd">
                 <ul id='ull'>
-                <MdClose fontSize="45px" color='#ffffff' className='close'/>
+                {/* <MdClose fontSize="45px" color='#ffffff' className='close'/> */}
                     <Link to="/"><li>Home</li></Link>
-                    <Link to=""><li>Contact Us</li></Link>
+                    {/* <Link to=""><li>Contact Us</li></Link> */}
                     <Link to="/about"><li>About Us</li></Link>
                     <Link to="/register"><span>Enrol Now</span></Link>
                 </ul>

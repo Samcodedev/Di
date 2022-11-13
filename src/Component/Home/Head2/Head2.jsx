@@ -28,11 +28,11 @@ const Head2 = () => {
     })
 
 
-
     return(
         <motion.div
-        initial={{x: 400}}
-        animate={{x: 0}} 
+        initial={{x: 400, opacity: 0}}
+        whileInView={{x: 0, opacity: 1}}
+        viewport={{once:false, amount: 0.3}}
         transition={{
             type: "spring",
             damping: "20"

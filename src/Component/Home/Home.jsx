@@ -6,19 +6,22 @@ import Head3 from './Head3/Head3';
 import Head4 from './Head4/Head4';
 import Head5 from './Head5/Head5';
 import Purpose from './Purpose/Purpose';
+import { AnimatePresence } from 'framer-motion'
 
 const Home = () => {
 
     return(
-        <>
-            <Head />
-            <Head2 />
-            <Purpose />
-            <Head3 />
-            <Head4 />
-            <Head5 />
-            <Course />
-        </>
+        <AnimatePresence>
+            <>
+                <Head />
+                <Head2 />
+                <Purpose />
+                <Head3 />
+                <Head4 />
+                <Head5 />
+                <Course />
+            </>
+        </AnimatePresence>
     )
 }
 
