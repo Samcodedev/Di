@@ -6,7 +6,7 @@ import { BiMenu } from 'react-icons/bi'
 import { MdClose } from 'react-icons/md'
 
 const NavBar = () => {
-    
+
     document.addEventListener("click", close)
     function close(){
         let ull = document.getElementById("ull")
@@ -18,7 +18,7 @@ const NavBar = () => {
             ull.style.display="flex"
         }
 
-        if( window.innerWidth >= 1202 ){
+        if( window.innerWidth >= 1201 ){
             ull.style.display="flex"
         }
     }
