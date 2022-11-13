@@ -6,6 +6,7 @@ import { BiMenu } from 'react-icons/bi'
 import { MdClose } from 'react-icons/md'
 
 const NavBar = () => {
+    
     document.addEventListener("click", close)
     function close(){
         let ull = document.getElementById("ull")
