@@ -30,10 +30,10 @@ const NavBar = () => {
             <div className="dd">
                 <ul id='ull'>
                 <MdClose fontSize="45px" color='#ffffff' onClick={close} id='close'/>
-                    <Link to="/" onClick={close} ><li>Home</li></Link>
+                    <Link to="/"><li onClick={close} >Home</li></Link>
                     {/* <Link to=""><li>Contact Us</li></Link> */}
-                    <Link to="/about" onClick={close} ><li>About Us</li></Link>
-                    <Link to="/register" onClick={close} ><span>Enrol Now</span></Link>
+                    <Link to="/about"><li onClick={close} >About Us</li></Link>
+                    <Link to="/register"><span onClick={close} >Enrol Now</span></Link>
                 </ul>
                 <BiMenu fontSize="40px" color='#ffffff' onClick={close} />
             </div>
