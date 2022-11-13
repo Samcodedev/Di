@@ -1,7 +1,4 @@
 import React from 'react';
-import { 
-    motion
-} from 'framer-motion'
 import TextImg from '../../Comp/TextImg';
 import '../Head2/Head2.css'
 import img from '../../../img/Work time-rafiki.png'
@@ -22,22 +19,13 @@ const Head4 = () => {
                 answer={item.answer}
                 link={item.link}
                 img={img}
-                anim="100"
             />
         )
     })
     return(
-        <motion.div
-        initial={{x: 200, opacity: 0}}
-        whileInView={{x: 0, opacity: 1}}
-        viewport={{once:false, amount: 0.3}}
-        transition={{
-            type: "spring",
-            damping: "20"
-        }} 
-         className='head2'>
+        <div className='head2'>
             {comp}
-        </motion.div>
+        </div>
     )
 }
 

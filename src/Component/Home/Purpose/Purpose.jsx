@@ -1,9 +1,6 @@
 import React from 'react';
 import PurCard from '../../Comp/PurCard';
 import './Purpose.css'
-import { 
-    motion
-} from 'framer-motion'
 import { GiBookCover } from 'react-icons/gi'
 import { FaCertificate } from 'react-icons/fa'
 import { MdOutlineWork } from 'react-icons/md'
@@ -42,17 +39,9 @@ const Purpose = () => {
     return(
         <div className='purpose'>
             <h2>Reasons to enroll for the European Business University scholarship</h2>
-            <motion.div 
-                initial={{y: 270, opacity: 0}}
-                whileInView={{y: 0, opacity: 1}}
-                viewport={{once:false, amount: 0.3}}
-                transition={{
-                    type: "spring",
-                    damping: "20"
-                }}
-            className="cards">
+            <div className="cards">
                 {cards}
-            </motion.div>
+            </div>
         </div>
     )
 }
