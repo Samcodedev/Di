@@ -82,18 +82,18 @@
         top: 5px;
         right: 25px;
         z-index: 4;
-        background-color: aqua;
+        /* background-color: aqua; */
     }
     /* .navbar .dd .close:hover #ull{
         display: none;
     } */
     .navbar .dd ul a li{
         position: relative;
-        background-color: blue;
+        /* background-color: blue; */
     }
     .navbar .dd svg{
         display: block;
-        background-color: chartreuse;
+        /* background-color: chartreuse; */
     }
     .navbar .dd:hover #ull{
         display: flex;
@@ -105,7 +105,7 @@
         background-color: rgb(48, 92, 235);
         width: 100%;
         min-width: 100vw;
-        height: 100vh;
+        height: 60vh;
         padding: 10px 10px;
     }
     .navbar .img-div img{
