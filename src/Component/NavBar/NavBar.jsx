@@ -11,14 +11,14 @@ const NavBar = () => {
     function close(){
         let ull = document.getElementById("ull")
 
+        if( window.innerWidth >= 1201 ){
+            ull.style.display="flex"
+        }
+
         if( ull.style.display==="block" || ull.style.display==="flex"){
             ull.style.display="none"
         }
         else{
-            ull.style.display="flex"
-        }
-
-        if( window.innerWidth >= 1201 ){
             ull.style.display="flex"
         }
     }

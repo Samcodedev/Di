@@ -62,7 +62,7 @@
 .navbar .img-div img{
     width: 70%;
 }
-.navbar svg{
+.navbar .dd svg{
     display: none;
 }
 
@@ -82,15 +82,18 @@
         top: 5px;
         right: 25px;
         z-index: 4;
+        background-color: aqua;
     }
     /* .navbar .dd .close:hover #ull{
         display: none;
     } */
     .navbar .dd ul a li{
         position: relative;
+        background-color: blue;
     }
     .navbar .dd svg{
         display: block;
+        background-color: chartreuse;
     }
     .navbar .dd:hover #ull{
         display: flex;
