@@ -9,7 +9,7 @@ const CouCard = (props) => {
             </div>
             <div className="text-div">
                 <h4>{props.course}</h4>
-                <span>${props.price}</span>
+                <span>₦{props.price}</span>
             </div>
         </div>
     )
