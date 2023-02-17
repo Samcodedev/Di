@@ -1,0 +1,26 @@
+.chartkuti{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    padding: 10px 12px;
+    background-color: rgba(22, 70, 228);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+}
+.chartkuti svg{
+    color: rgb(42, 218, 106);
+}
+.chartkuti p{
+    margin-block-start: 0;
+    font-weight: 600;
+    display: none;
+    color: #fff;
+}
+.chartkuti:hover p{
+    display: flex;
+    transform: 4s;
+}

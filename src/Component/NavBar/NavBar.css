@@ -1,9 +1,11 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: rgba(22, 70, 228);
     position: fixed;
     width: 100vw;
+    height: 50px;
     top: 0;
     left: 0;
     padding: 5px 0;
@@ -30,6 +32,9 @@
     padding-inline-start: 0;
     /* background-color: aqua; */
     margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* visibility: visible; */
 }
 .navbar ul a{
     text-decoration-line: none;
@@ -63,6 +68,12 @@
     width: 50%;
 }
 .navbar .dd svg{
+    visibility: hidden;
+}
+.navbar .dd ul{
+    display: flex;
+}
+.navbar .dd ul #close{
     display: none;
 }
 
@@ -92,20 +103,20 @@
         /* background-color: blue; */
     }
     .navbar .dd svg{
-        display: block;
+        display: flex;
+        visibility: visible;
         /* background-color: chartreuse; */
     }
-    .navbar .dd:hover #ull{
-        display: flex;
+    .navbar #ull{
         flex-direction: column;
         position: absolute;
         justify-content: center;
         top: -20px;
         right: -30px;
-        background-color: rgb(48, 92, 235);
+        background-color: rgba(22, 70, 228);
         width: 100%;
         min-width: 100vw;
-        height: 60vh;
+        height: 100vh;
         padding: 10px 10px;
     }
     .navbar .img-div img{
