@@ -1,9 +1,11 @@
 import React from 'react';
 import './About.css'
+import img from '../../img/403689fe701fedda5ceb6f82c7a88992_adobe_express.png'
 
 const About = () => {
     return(
         <div className='about'>
+            <img src={img} alt="About_avatar" />
             <p>Go Learn is Nigeria's foremost learning and earning platform.<br /> <br />
             Our goal is to eradicate poverty, and its offshoots like fraud and un-fulfillment by giving people financial education and helping them become financial literates.<br /> <br />
             People do not know, think about or act on making money and therefore they cannot be masters or even owners of it. We have the goal to in various ways, styles, methods and settings preach the gospel of financial emancipation and freedom.<br /> <br />

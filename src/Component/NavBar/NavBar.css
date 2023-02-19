@@ -47,11 +47,11 @@
     cursor: pointer;
 }
 .navbar ul span{
-    padding: 5px 30px;
+    padding: 5px 15px;
     background-color: transparent;
     border: 2px solid #ffffff;
     color: #ffffff;
-    border-radius: 3px;
+    border-radius: 12px;
     cursor: pointer;
 }
 .navbar ul span:active{

@@ -2,6 +2,8 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+.chartkuti a{
     display: flex;
     padding: 10px 12px;
     background-color: rgba(22, 70, 228);
@@ -10,17 +12,18 @@
     justify-content: space-between;
     gap: 10px;
     cursor: pointer;
+    text-decoration-line: none;
 }
-.chartkuti svg{
+.chartkuti a svg{
     color: rgb(42, 218, 106);
 }
-.chartkuti p{
+.chartkuti a p{
     margin-block-start: 0;
     font-weight: 600;
     display: none;
     color: #fff;
 }
-.chartkuti:hover p{
+.chartkuti a:hover p{
     display: flex;
     transform: 4s;
 }
