@@ -40,12 +40,36 @@
 .header .sub-header .video-div .bound svg{
     position: absolute;
     cursor: pointer;
-    z-index: 5;
+    z-index: 2;
 }
 .header .sub-header .video-div .cover{
     position: absolute;
     background-color: rgba(0, 0, 0, 0);
-    width: 610px;
-    height: 345px;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width: 929px) { 
+    .header .sub-header{
+        flex-direction: column;
+        height: 100%;
+        gap: 30px;
+        justify-content: center;
+    }
+    .header .sub-header .text-div{
+        width: 90%;
+        text-align: center;
+    }
+    .header .sub-header .video-div{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .header .sub-header .text-div{
+        width: 100%;
+        text-align: center;
+    }
+    .header .sub-header .video-div{
+        width: 100%;
+    }
 }

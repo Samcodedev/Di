@@ -13,7 +13,7 @@ const About = () => {
 
     return(
         <div className='about'>
-            <img src={img} alt="About_avatar" data-aos="fade-up" />
+            <img src={img} alt="About_avatar" data-aos={ window.innerWidth > 800  ? "fade-up" : "fade-down"} />
             <p data-aos="fade-left">Go Learn is Nigeria's foremost learning and earning platform.<br /> <br />
             Our goal is to eradicate poverty, and its offshoots like fraud and un-fulfillment by giving people financial education and helping them become financial literates.<br /> <br />
             People do not know, think about or act on making money and therefore they cannot be masters or even owners of it. We have the goal to in various ways, styles, methods and settings preach the gospel of financial emancipation and freedom.<br /> <br />
