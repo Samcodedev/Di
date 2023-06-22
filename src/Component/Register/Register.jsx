@@ -4,8 +4,8 @@ import './Register.css'
 const Register = () => {
     return(
         <div className='register'>
-            <h2>Fill in the form bellow to register for the EBU scholarship with Golearn.</h2>
-            <p>Chart Kuti to register. <a href="https://wa.me/message/3QGND6LVYP7KM1">Kuti</a></p>
+            <h2>Fill in the form bellow to register for Fashion Illustration with Dotun Collins.</h2>
+            <p>Chart Dotun to register. <a href="https://wa.me/message/3QGND6LVYP7KM1">Dotun</a></p>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdARHzJWENHVHhM23ioYnk8twoiP-t12yGYnUyV8VAcOt0WPQ/viewform?embedded=true" width="100%" height="500px"  frameborder="0" marginHeight="0" marginWidth="0" title="registeration">Loading</iframe>
         </div>
     )

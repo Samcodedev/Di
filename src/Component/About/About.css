@@ -1,11 +1,13 @@
 .about{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 .about img{
     width: 40%;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 1202px){

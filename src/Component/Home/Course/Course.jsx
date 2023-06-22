@@ -15,75 +15,70 @@ import nine from '../../../img/8bdfb1f525261ce1c7fba4e6e52319e4.jpg'
 import ten from '../../../img/9fb17ca694dd4833341678cfdbf03e18.jpg'
 import eleven from '../../../img/96912fbeadc69dda84c6f90e030bf813.jpg'
 import twelve from '../../../img/4c0f6895b9eddf3bc6e76b9e505f690d.jpg'
-import thirteen from '../../../img/618fef62c7b1f647b6bf5f2ea96407c3.jpg'
+// import thirteen from '../../../img/618fef62c7b1f647b6bf5f2ea96407c3.jpg'
 
 const Course = () => {
 
     const data =[
         {
-            Course: "CP100 - Business Management I & II(Online Campus)",
-            price: "25,000",
+            Course: "Ready to wear illustration using paint",
+            price: "Gloria",
             img: first
         },
         {
-            Course: "CP102 - Financial Accounting I & II - Term II (Online Campus)",
-            price: "25,000",
+            Course: "Cultural dress illustration using pencil",
+            price: "Ayomide",
             img: second
         },
         {
             Course: "CP103 - Business Ethics I & II (Online Campus)",
-            price: "25,000",
+            price: "Lolade",
             img: third
         },
         {
             Course: "CP 105 - PROJECT MANAGEMENT CAPM I (online Campus)",
-            price: "25,000",
+            price: "Funke",
             img: forth
         },
         {
             Course: "CP109 - Women and Leadership (Online Campus)",
-            price: "25,000",
+            price: "Johnson",
             img: fifth
         },
         {
             Course: "CP202 - Macro Economics I & II (Online Campus)",
-            price: "25,000",
+            price: "Gabriel",
             img: sixth
         },
         {
             Course: "CP 202A - Entrepreneurship & Communication (Online Campus)",
-            price: "25,000",
+            price: "Gifted",
             img: seventh
         },
         {
             Course: "CP203 - Global Economy (Online Campus)",
-            price: "25,000",
+            price: "Emmanuella",
             img: eighth
         },
         {
             Course: "Basic English A2 (Online Campus)",
-            price: "25,000",
+            price: "Tosin",
             img: nine
         },
         {
             Course: "Intermediate English B1",
-            price: "25,000",
+            price: "Aminate",
             img: ten
         },
         {
             Course: "CP500A - Advanced Managerial Accounting (Online Campus)",
-            price: "25,000",
+            price: "Favour",
             img: eleven
         },
         {
             Course: "CP501A - Advanced Financial Management (Online Campus)",
-            price: "25,000",
+            price: "Chidima",
             img: twelve
-        },
-        {
-            Course: "CPA501 Advanced financial management",
-            price: "25,000",
-            img: thirteen
         }
     ]
 
@@ -99,7 +94,7 @@ const Course = () => {
 
     return(
         <div className='course'>
-            <h2>Available Courses you can enroll for in the scholarship</h2>
+            <h2>Dotun Collins studendts illustrations</h2>
             <div className="cards">
                 {lists}
             </div>

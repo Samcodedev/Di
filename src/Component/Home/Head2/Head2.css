@@ -1,5 +1,6 @@
 .head2 .text-img{
     flex-direction: row-reverse;
+    gap: 20px;
 }
 /* .head2{
     background-color: brown;

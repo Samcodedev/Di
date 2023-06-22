@@ -1,0 +1,51 @@
+.header{
+    /* background-color: gray; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .sub-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    /* background-color: chocolate; */
+}
+.header .sub-header .text-div{
+    width: 50%;
+
+}
+.header .sub-header .video-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.header .sub-header .video-div .bound{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.header .sub-header .video-div .bound video{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+}
+.header .sub-header .video-div .bound svg{
+    position: absolute;
+    cursor: pointer;
+    z-index: 5;
+}
+.header .sub-header .video-div .cover{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    width: 610px;
+    height: 345px;
+    border-radius: 10px;
+}

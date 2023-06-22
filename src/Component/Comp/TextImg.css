@@ -27,6 +27,7 @@
 .text-img .img-div img{
     position: relative;
     width: 100%;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 800px) {
@@ -41,6 +42,7 @@
     .text-img .img-div{
         width: 100%;
         align-items: flex-end;
+        
         /* background-color: aqua; */
     }
     .text-img .img-div img{

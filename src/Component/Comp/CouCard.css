@@ -4,7 +4,7 @@
     width: 350px;
     max-width: 95%;
     height: fit-content;
-    background-color: #efefef;
+    background-color: rgb(180, 176, 176);
     border-radius: 5px;
     overflow-x: hidden;
 }
@@ -34,10 +34,10 @@
 }
 .coucard .text-div span{
     font-weight: 500;
-    background-color: rgb(22, 70, 228);
+    background-color: rgb(24, 24, 24);
     padding: 5px 10px;
     color: #ffffff;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
-    border: 2px solid rgb(22, 70, 228);
+    border: 2px solid rgb(24, 24, 24);
 }

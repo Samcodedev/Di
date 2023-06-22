@@ -1,7 +1,7 @@
 import React from 'react';
 import './Head.css'
 import TextImg from '../../Comp/TextImg';
-import img from '../../../img/Certification-rafiki.png'
+import img from '../../../img/IMG-20230620-WA0018.jpg'
 
 const Head = () => {
 
@@ -20,6 +20,8 @@ const Head = () => {
                 answer={item.answer}
                 link={item.link}
                 img={img}
+                imgTransition="fade-up"
+                textTransition="fade-right"
             />
         )
     })

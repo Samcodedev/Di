@@ -1,6 +1,6 @@
 import React from 'react';
 import TextImg from '../../Comp/TextImg';
-import img from '../../../img/Select-rafiki.png'
+import img from '../../../img/IMG-20230620-WA0019.jpg'
 import '../Head/Head.css'
 
 const Head3 = () => {
@@ -19,6 +19,8 @@ const Head3 = () => {
                 answer={item.answer}
                 link={item.link}
                 img={img}
+                imgTransition="zoom-in-up"
+                textTransition="fade-right"
             />
         )
     })

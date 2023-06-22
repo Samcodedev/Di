@@ -14,9 +14,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border: 10px solid rgba(22, 70, 228, 0.651);
+    border: 10px solid rgb(24, 24, 24, 0.651);
     border-style: double;
-    background-color: rgb(163, 185, 255);
+    background-color: rgb(180, 176, 176);
 }
 
 

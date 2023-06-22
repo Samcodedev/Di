@@ -3,3 +3,10 @@
     margin-top: 80px;
     /* background-color: aquamarine; */
 }
+
+@media screen and (max-width: 800px) {
+    .head .text-img{
+        gap: 50px;
+        height: 100vh;
+    }
+}

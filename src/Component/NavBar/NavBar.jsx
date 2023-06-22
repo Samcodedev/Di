@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './NavBar.css'
 import { Link } from 'react-router-dom';
-import logo from '../../img/GoLearnFull Color.png'
+import logo from '../../img/logo.png'
 import { BiMenu } from 'react-icons/bi'
 import { MdClose } from 'react-icons/md'
 // import { MdClose } from 'react-icons/md'
@@ -30,6 +30,7 @@ const NavBar = () => {
                 <MdClose fontSize="45px" color='#ffffff'  id='close' onClick={navi} style={{display: open? "flex" : "none"}}/>
                     <Link to="/" onClick={navi}><li >Home</li></Link>
                     <Link to="/about" onClick={navi}><li >About Us</li></Link>
+                    <Link to="/Fashion_Money_Workshop" onClick={navi}><li >Fashion Money</li></Link>
                     <Link to="/register" onClick={navi}><span >Enrol Now</span></Link>
                 </ul>
                 <BiMenu fontSize="45px" color='#ffffff' onClick={navi} style={{display: open? "none" : "flex"}}/>

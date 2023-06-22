@@ -1,7 +1,7 @@
 import React from 'react';
 import TextImg from '../../Comp/TextImg';
 import '../Head2/Head2.css'
-import img from '../../../img/Work time-rafiki.png'
+import img from '../../../img/IMG-20230620-WA0023.jpg'
 
 const Head4 = () => {
     const data = [
@@ -19,6 +19,8 @@ const Head4 = () => {
                 answer={item.answer}
                 link={item.link}
                 img={img}
+                imgTransition="zoom-in-up"
+                textTransition="fade-left"
             />
         )
     })

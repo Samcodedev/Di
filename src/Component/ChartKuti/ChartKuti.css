@@ -2,11 +2,16 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
+    /* background-color: aquamarine; */
+    padding: 5px 5px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(53, 53, 53);
+    border-style: dashed;
 }
 .chartkuti a{
     display: flex;
     padding: 10px 12px;
-    background-color: rgba(22, 70, 228);
+    background-color: rgb(53, 53, 53);
     border-radius: 30px;
     align-items: center;
     justify-content: space-between;
@@ -22,8 +27,12 @@
     font-weight: 600;
     display: none;
     color: #fff;
+    font-size: 15px;
 }
 .chartkuti a:hover p{
     display: flex;
     transform: 4s;
+}
+.chartkuti:hover{
+    border-radius: 35px;
 }

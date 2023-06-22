@@ -6,6 +6,7 @@ import Error from './Component/Error/Error';
 import Home from './Component/Home/Home';
 import NavBar from './Component/NavBar/NavBar';
 import Register from './Component/Register/Register';
+import FashionMoney from './Component/FashionMoney/FashionMoney';
 
 const Routing = () => {
     return(
@@ -15,6 +16,7 @@ const Routing = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/Fashion_Money_Workshop" element={<FashionMoney />} />
                 <Route path="*" element={<Error />} />
             </Routes>
             <ChartKuti />
