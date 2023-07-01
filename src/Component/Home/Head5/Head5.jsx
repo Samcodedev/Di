@@ -1,6 +1,6 @@
 import React from 'react';
 import TextImg from '../../Comp/TextImg';
-import img from '../../../img/Mobile payments-rafiki.png'
+import img from '../../../img/IMG-20230620-WA0020.jpg'
 import '../Head/Head.css'
 
 const Head5 = () => {
@@ -20,6 +20,8 @@ const Head5 = () => {
                 answer={item.answer}
                 link={item.link}
                 img={img}
+                imgTransition="zoom-in-up"
+                textTransition="fade-right"
             />
         )
     })
