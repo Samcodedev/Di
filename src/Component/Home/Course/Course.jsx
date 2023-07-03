@@ -31,52 +31,52 @@ const Course = () => {
             img: second
         },
         {
-            Course: "CP103 - Business Ethics I & II (Online Campus)",
+            Course: "Ready to wear illustration using paint",
             price: "Lolade",
             img: third
         },
         {
-            Course: "CP 105 - PROJECT MANAGEMENT CAPM I (online Campus)",
+            Course: "Cultural dress illustration using pencil",
             price: "Funke",
             img: forth
         },
         {
-            Course: "CP109 - Women and Leadership (Online Campus)",
+            Course: "Ready to wear illustration using paint",
             price: "Johnson",
             img: fifth
         },
         {
-            Course: "CP202 - Macro Economics I & II (Online Campus)",
+            Course: "Cultural dress illustration using pencil",
             price: "Gabriel",
             img: sixth
         },
         {
-            Course: "CP 202A - Entrepreneurship & Communication (Online Campus)",
+            Course: "Ready to wear illustration using paint",
             price: "Gifted",
             img: seventh
         },
         {
-            Course: "CP203 - Global Economy (Online Campus)",
+            Course: "Cultural dress illustration using pencil",
             price: "Emmanuella",
             img: eighth
         },
         {
-            Course: "Basic English A2 (Online Campus)",
+            Course: "Ready to wear illustration using paint",
             price: "Tosin",
             img: nine
         },
         {
-            Course: "Intermediate English B1",
+            Course: "Cultural dress illustration using pencil",
             price: "Aminate",
             img: ten
         },
         {
-            Course: "CP500A - Advanced Managerial Accounting (Online Campus)",
+            Course: "Ready to wear illustration using paint",
             price: "Favour",
             img: eleven
         },
         {
-            Course: "CP501A - Advanced Financial Management (Online Campus)",
+            Course: "Cultural dress illustration using pencil",
             price: "Chidima",
             img: twelve
         }

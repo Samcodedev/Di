@@ -20,12 +20,21 @@
 }
 .header .sub-header .video-div{
     width: 50%;
+    height: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: auto;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
+}
+.header .sub-header .video-div::-webkit-scrollbar{
+    display: none;
+}
+.header .sub-header .video-div img{
+    position: relative;
+    width: 100%;
 }
 .header .sub-header .video-div .bound{
     width: fit-content;
