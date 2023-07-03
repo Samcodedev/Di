@@ -33,8 +33,8 @@ const Header = () => {
     <div className='header'>
       <div className="sub-header">
         <div className="text-div" data-aos={window.innerWidth <= 800? "fade-down" : "fade-right" }>
-            <h1>How to make money with fashion as a Nigerian.</h1>
-            <p>I know you want to learn how you can begin to earn XYZ amount in your business, but let me tell you a roffle stay about something that happened an my birthday last year. When i got a text from an unknown person on Instagram. </p>
+            <h1>Building a Profitable Fashion Business in Nigeria</h1>
+            <p>I know you want to learn how you can begin to earn XYZ amount in your business, but let me tell you a hilarious story about something that happened on my birthday last year when I received a text from an unknown person on Instagram. </p>
             {/* <Link to="/register"><button><span>Click to Enroll <BsJournalBookmark/></span></button></Link> */}
             <a href={video} download="Fashion_Money_Workshop"><button><span>Download video <BsDownload /></span></button></a>
         </div>
