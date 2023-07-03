@@ -1,7 +1,7 @@
 .text-img{
     display: flex;
     height: 90vh;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
     /* background-color: brown; */
@@ -33,8 +33,7 @@
 @media screen and (max-width: 800px) {
     .text-img{
         flex-direction: column;
-        justify-content: space-around;
-        height: 95vh;
+        justify-content: center;
     }
     .text-img .text-div{
         width: 100%;

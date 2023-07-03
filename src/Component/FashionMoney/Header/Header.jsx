@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react'
 import './Header.css'
-import video from '../Asset/DOTUN_COLLINS_LANDING_PAGE.mp4'
-import {BsFillPlayCircleFill, BsFillPauseCircleFill} from 'react-icons/bs'
+import video from '../Asset/Dotun collins at the first class with the Students at @aisyfashionaccademy yesterday. It was a great experience..mp4'
+import {BsFillPlayCircleFill, BsFillPauseCircleFill, BsDownload} from 'react-icons/bs'
 import AOS from 'aos'
 import "aos/dist/aos.css"
 
@@ -34,12 +34,14 @@ const Header = () => {
       <div className="sub-header">
         <div className="text-div" data-aos={window.innerWidth <= 800? "fade-down" : "fade-right" }>
             <h1>How to make money with fashion as a Nigerian.</h1>
-            <p>Making money has a fashionist in Nigeria is one of the most entucial aspect in fashion and the value you give out is the tells how you earn as a fashionist. </p>
+            <p>I know you want to learn how you can begin to earn XYZ amount in your business, but let me tell you a roffle stay about something that happened an my birthday last year. When i got a text from an unknown person on Instagram. </p>
+            {/* <Link to="/register"><button><span>Click to Enroll <BsJournalBookmark/></span></button></Link> */}
+            <a href={video} download="Fashion_Money_Workshop"><button><span>Download video <BsDownload /></span></button></a>
         </div>
         <div className="video-div" data-aos={window.innerWidth <= 800? "fade-up" : "fade-left" }>
             <div className="bound">
-                <video src={video} ref={viRef} ></video>
-                {click? <BsFillPlayCircleFill fontSize={60} onClick={toque} color='rgb(255, 255, 255)' /> : <BsFillPauseCircleFill fontSize={60} onClick={toque} style={{color: click? "rgb(255, 255, 255)" : "rgb(255, 255, 255, 0.4)"}} /> }
+                <video src={video} ref={viRef} style={{opacity: click? "20%" : "100%"}} download ></video>
+                {click? <BsFillPlayCircleFill fontSize={60} onClick={toque} color='rgb(255, 255, 255)' /> : <BsFillPauseCircleFill fontSize={60} onClick={toque} style={{color: click? "rgb(255, 255, 255)" : "rgb(0, 0, 0, 0.4)"}} /> }
             </div>
                 <div className="cover" style={{backgroundColor: click? "rgba(0, 0, 0, 0.671)" : "rgba(0, 0, 0, 0)"}}>
                     
