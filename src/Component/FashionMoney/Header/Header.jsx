@@ -1,16 +1,20 @@
-import React, { useRef, useState, useEffect } from 'react'
+import React, { 
+  // useRef, 
+  // useState, 
+  useEffect 
+} from 'react'
 import './Header.css'
-import video from '../Asset/Dotun collins at the first class with the Students at @aisyfashionaccademy yesterday. It was a great experience..mp4'
-import {BsFillPlayCircleFill, BsFillPauseCircleFill, BsDownload} from 'react-icons/bs'
-import img from '../Asset/IMG-20230702-WA0007.jpg'
+// import video from '../Asset/Dotun collins at the first class with the Students at @aisyfashionaccademy yesterday. It was a great experience..mp4'
+// import {BsFillPlayCircleFill, BsFillPauseCircleFill, BsDownload} from 'react-icons/bs'
+import img from '../Asset/IMG-20230620-WA0017.jpg'
 import AOS from 'aos'
 import "aos/dist/aos.css"
-import { HiArrowNarrowRight } from 'react-icons/hi'
+// import { HiArrowNarrowRight } from 'react-icons/hi'
 
 const Header = () => {
-    const [click, clickFunc] = useState(true)
-    const [control, controlFunc] = useState(true)
-    const viRef = useRef(null)
+    // const [click, clickFunc] = useState(true)
+    // const [control, controlFunc] = useState(true)
+    // const viRef = useRef(null)
     
     useEffect(()=>{
         AOS.init()
@@ -18,29 +22,39 @@ const Header = () => {
     }, [])
 
 
-    function toque(){
-        clickFunc(
-            !click
-        )
-        if(control){
-          viRef.current.play()
-          controlFunc(!control)
-        }else{
-          viRef.current.pause()
-          controlFunc(!control)
-        }
-    }
+    // function toque(){
+    //     clickFunc(
+    //         !click
+    //     )
+    //     if(control){
+    //       viRef.current.play()
+    //       controlFunc(!control)
+    //     }else{
+    //       viRef.current.pause()
+    //       controlFunc(!control)
+    //     }
+    // }
 
   return (
     <div className='header'>
       <div className="sub-header">
         <div className="text-div" data-aos={window.innerWidth <= 800? "fade-down" : "fade-right" }>
             <h1>Building a Profitable Fashion Business in Nigeria</h1>
-            <p>I know you want to learn how you can begin to earn XYZ amount in your business, but let me tell you a hilarious story about something that happened on my birthday last year when I received a text from an unknown person on Instagram. </p>
+            <p>
+              Before you read further, I want you to have a statement in mind, that is:
+            </p>
+            <p>
+              ‘The Amount of money (no matter how big it is) that you are looking for is also looking for you, but not this current version of you’.
+            </p>
+            <p>READ THAT AGAIN! This time without the bracket. </p>
+            <p>
+              In case you’re wondering why I made that statement, let me share a brief story of how I got what I’ll call a big Birthday gift when I received a DM from a very Big name in the Fashion Industry.
+            </p>
+            
             {/* <Link to="/register"><button><span>Click to Enroll <BsJournalBookmark/></span></button></Link> */}
-            <a href={video}><button><span>About Aisy<HiArrowNarrowRight /></span></button></a>
+            {/* <a href={video}><button><span>About Aisy<HiArrowNarrowRight /></span></button></a> */}
         </div>
-        <div className="video-div">
+        <div className="video-div" data-aos={window.innerWidth <= 800? "fade-up" : "fade-left" }>
           <img src={img} alt="_aisy_, Instagram user name" />
         </div>
         {/* <div className="video-div" data-aos={window.innerWidth <= 800? "fade-up" : "fade-left" }>
